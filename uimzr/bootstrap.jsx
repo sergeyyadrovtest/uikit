@@ -26,7 +26,6 @@ require([
 
             return (<div>
 
-
                 <SpecMenu />
                 <SBlock></SBlock>
                 <MenuPageSpec></MenuPageSpec>

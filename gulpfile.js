@@ -23,7 +23,7 @@ var pkg         = require('./package.json'),
 
 var watchmode    = gutil.env._.length && gutil.env._[0] == 'watch',
     watchCache   = {},
-    watchfolders = ['src/**/*', 'themes/**/*.less', 'custom/**/*.less'],
+    watchfolders = ['src/**/*', 'themes/**/*.less', 'custom/**/*.less', 'uimzr/**/*.js'],
     getThemes    = function(theme, all) {
 
         var list = [], themefolders = ["themes"];

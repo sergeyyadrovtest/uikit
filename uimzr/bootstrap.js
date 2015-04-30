@@ -26,7 +26,6 @@ require([
 
             return (React.createElement("div", null, 
 
-
                 React.createElement(SpecMenu, null), 
                 React.createElement(SBlock, null), 
                 React.createElement(MenuPageSpec, null), 
