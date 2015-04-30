@@ -18,7 +18,8 @@
 
         getInitialState: function(){
             return {groups: [
-                {group: 'core', specks: [] }
+                {group: 'core', specks: [] },
+                {group: 'menu', specks: [] }
             ]};
         },
 
@@ -40,7 +41,7 @@
                 }
             }
             this.setState({groups: oldState});
-            console.log(oParams, oldState);
+            //console.log(oParams, oldState);
         },
 
 

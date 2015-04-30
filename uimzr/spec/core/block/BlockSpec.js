@@ -9,24 +9,25 @@
 
     var BlockSpec = React.createClass({displayName: "BlockSpec",
 
+
         render: function(){
 
             return (
 
                 React.createElement(Spec, {title: "Block (css)", anchor: "core:block", group: "core"}, 
+
+
                     React.createElement("p", null, "Является основным блоком отображения контента."), 
                     React.createElement("code", null, "Less: themes/default/mzr-style/mzr-block.less"), 
                     React.createElement("p", null, "Примеры:"), 
                     React.createElement("section", {className: "mzr-block"}, 
                         React.createElement("div", {className: "mzr-block-header"}, "Заголовок"), 
                         React.createElement("div", {className: "mzr-block-content"}, 
-                            React.createElement("pre", null, 
-                                React.createElement("code", {className: "html"}, 
-                                    '<div class="mzr-block">'  + "\n"+
-                                    '   <div class="mzr-block-header">Заголовок блока</div>'  + "\n"+
-                                    '   <div class="mzr-block-content">контент ...</div>'  + "\n"+
-                                    '</div>'
 
+                            React.createElement(Spec.Prety, null, 
+                                React.createElement("div", {className: "mzr-block"}, 
+                                    React.createElement("div", {class: "mzr-block-header"}, "Заголовок блока"), 
+                                    React.createElement("div", {class: "mzr-block-content"}, "контент ...")
                                 )
                             )
 

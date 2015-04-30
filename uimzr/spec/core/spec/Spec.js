@@ -6,7 +6,8 @@
             'uimzr/spec/core/spec/SpecGridClearFix',
             'uimzr/spec/core/spec/SpecGridContent',
             'uimzr/spec/core/spec/SpecGridLeftSide',
-            'uimzr/spec/core/spec/SpecGridRightSide'
+            'uimzr/spec/core/spec/SpecGridRightSide',
+            'uimzr/spec/core/spec/SpecPretyHtml'
         ], factory);
     } else if (typeof exports === 'object') {
 
@@ -16,10 +17,11 @@
             require('uimzr/spec/core/spec/SpecGridClearFix'),
             require('uimzr/spec/core/spec/SpecGridContent'),
             require('uimzr/spec/core/spec/SpecGridLeftSide'),
-            require('uimzr/spec/core/spec/SpecGridRightSide')
+            require('uimzr/spec/core/spec/SpecGridRightSide'),
+            require('uimzr/spec/core/spec/SpecPretyHtml')
         );
     }
-}(this, function (Events, SpecGrid3Column, SpecGridClearFix, SpecGridContent, SpecGridLeftSide, SpecGridRightSide) {
+}(this, function (Events, SpecGrid3Column, SpecGridClearFix, SpecGridContent, SpecGridLeftSide, SpecGridRightSide, SpecPretyHtml) {
 
     var Spec = React.createClass({displayName: "Spec",
 
@@ -45,17 +47,17 @@
 
             Events.trigger('uimzr:Spec:addSpeck', {title: this.props.title, anchor: this.props.anchor, group: this.props.group});
 
-            $('pre code').each(function(i, block) {
-               // hljs.highlightBlock(block);
-            });
+            //$('pre code').each(function(i, block) {
+            //   // hljs.highlightBlock(block);
+            //});
 
 
            // console.log(React.findDOMNode(this).innerHTML);
         },
         componentDidUpdate:function(){
-            $('pre code').each(function(i, block) {
-             //   hljs.highlightBlock(block);
-            });
+            //$('pre code').each(function(i, block) {
+            // //   hljs.highlightBlock(block);
+            //});
         },
 
         render: function(){
@@ -65,15 +67,15 @@
                 borderTopWidth: 1,
                 borderTopStyle: 'solid',
                 borderTopColor: '#6e7487',
-                marginTop: 15
+                marginTop: 25,
+                paddingTop: 25
             };
             return (React.createElement("div", {style: lStyle}, 
 
                 React.createElement(SpecGrid3Column, null, 
 
                     React.createElement(SpecGridContent, null, 
-
-                        React.createElement("h1", null, this.props.title, " (", React.createElement("a", {href: '#'+this.props.anchor}, '#'), ")"), 
+                        React.createElement("h1", {id: this.props.anchor}, this.props.title, " ", React.createElement("a", {href: '#'+this.props.anchor}, '#')), 
                         this.props.children
                     ), 
 
@@ -88,6 +90,8 @@
 
         }
     });
+
+    Spec.Prety = SpecPretyHtml;
     return Spec;
 
 }));

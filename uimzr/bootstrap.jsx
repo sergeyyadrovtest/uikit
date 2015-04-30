@@ -16,7 +16,11 @@ require([
     MenuMainSpec,
     MenuUserSpec,
 
-    SpecMenu){
+    SpecMenu
+
+){
+
+
 
 
     var App = React.createClass({
