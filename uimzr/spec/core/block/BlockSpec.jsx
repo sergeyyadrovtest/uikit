@@ -26,8 +26,8 @@
 
                             <Spec.Prety>
                                 <div className="mzr-block">
-                                    <div class="mzr-block-header">Заголовок блока</div>
-                                    <div class="mzr-block-content">контент ...</div>
+                                    <div className="mzr-block-header">Заголовок блока</div>
+                                    <div className="mzr-block-content">контент ...</div>
                                 </div>
                             </Spec.Prety>
 

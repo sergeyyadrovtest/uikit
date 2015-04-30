@@ -26,8 +26,8 @@
 
                             React.createElement(Spec.Prety, null, 
                                 React.createElement("div", {className: "mzr-block"}, 
-                                    React.createElement("div", {class: "mzr-block-header"}, "Заголовок блока"), 
-                                    React.createElement("div", {class: "mzr-block-content"}, "контент ...")
+                                    React.createElement("div", {className: "mzr-block-header"}, "Заголовок блока"), 
+                                    React.createElement("div", {className: "mzr-block-content"}, "контент ...")
                                 )
                             )
 

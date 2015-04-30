@@ -29,7 +29,7 @@
 
             title: React.PropTypes.string.isRequired,
             anchor: React.PropTypes.string.isRequired,
-            group: React.PropTypes.oneOf(['core']).isRequired,
+            group: React.PropTypes.oneOf(['core', 'menu']).isRequired,
             grid: React.PropTypes.oneOf('3').isRequired
 
         },
