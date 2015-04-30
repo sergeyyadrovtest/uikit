@@ -22,7 +22,7 @@
                     <h3>Тех. задание.</h3>
                     <p>Реализовать 3 меню.</p>
                     <div id="core:menuUser:spec">
-                        <p>menu-user-page-owner</p>
+                        <p>mzr-menu-user-page-owner</p>
                         <img src="/uimzr/spec/menu/menuUserPage/image/menu-user-page-owner.png"/>
                         <p>mzr-menu-user-page-guest</p>
                         <img src="/uimzr/spec/menu/menuUserPage/image/mzr-menu-user-page-guest.png"/>
