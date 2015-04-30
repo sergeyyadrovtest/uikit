@@ -12,6 +12,9 @@ require([
     'uimzr/spec/menu/menuUser/MenuUserSpec',
     'uimzr/spec/menu/menuUserPage/MenuUserPageSpec',
 
+    /*blog*/
+    'uimzr/spec/blog/userStats/UserStatsSpec',
+
     /*dev*/
     'SpecMenu'
 
@@ -29,6 +32,9 @@ require([
     MenuMainSpec,
     MenuUserSpec,
     MenuUserPageSpec,
+
+    /*blog*/
+    UserStatsSpec,
 
     /*dev*/
     SpecMenu
@@ -58,6 +64,9 @@ require([
 
                 <MenuMainSpec/>
                 <MenuUserSpec/>
+
+                {/*blog*/}
+                <UserStatsSpec/>
 
             </div>);
         }

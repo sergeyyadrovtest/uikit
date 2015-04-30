@@ -19,7 +19,8 @@
         getInitialState: function(){
             return {groups: [
                 {group: 'core', specks: [] },
-                {group: 'menu', specks: [] }
+                {group: 'menu', specks: [] },
+                {group: 'blog', specks: [] }
             ]};
         },
 

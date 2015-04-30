@@ -38,12 +38,14 @@
                         <div className="mzr-block-content">
                             <ul>
                                 <li>Пишем все на less</li>
-                                <li>Используем css framework <a href="http://getuikit.com/">getuikit</a> (core).</li>
-                                <ul>
-                                    <li>Родные компоненты меняем через default тему: <code>themes/default</code></li>
-                                    <li>Less для новых компонентов располагаем здесь <code>themes/default/mzr-style</code>.
-                                        Подключаем их в <code>themes/default/uikit.less</code></li>
-                                </ul>
+                                <li>Максимально используем css framework <a href="http://getuikit.com/">getuikit</a> (core).
+                                    <ul>
+                                        <li>Родные компоненты меняем через default тему: <code>themes/default</code></li>
+                                        <li>Less для новых компонентов располагаем здесь <code>themes/default/mzr-style</code>.
+                                            Подключаем их в <code>themes/default/uikit.less</code></li>
+                                    </ul>
+                                </li>
+
                                 <li>Префикс для css классов <code>mzr-</code></li>
                                 <li>Under score нотация наименования классов <code>mzr-super-component</code></li>
                                 <li>Рекомендуется использовать <a href="https://ru.bem.info/" target="_blank">BEM</a> методологию в наименовании классов. <code>mzr-super-block_element--modificator-red</code>
@@ -85,6 +87,27 @@
                             </div>
                         </div>
                     </div>
+
+
+
+                    <div className="mzr-block">
+                        <div className="mzr-block-header">Адаптивная верстка</div>
+
+                        <div className="mzr-block-content">
+                            <ul>
+                                <li>Делаем адаптивную верстку.</li>
+                                <li>Если width компонента не указана в ТЗ, значит он растягивается на всю длину.</li>
+                                <li>В Т.З. дается 3 картинки (если иное не указано), т.е. как компонент должен выглядеть на разных экранах.
+                                    <ul>
+                                        <li>до 733px включительно</li>
+                                        <li>480 px</li>
+                                        <li>320 px</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
 
 
                     <div className="mzr-block">

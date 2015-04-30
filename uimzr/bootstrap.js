@@ -12,6 +12,9 @@ require([
     'uimzr/spec/menu/menuUser/MenuUserSpec',
     'uimzr/spec/menu/menuUserPage/MenuUserPageSpec',
 
+    /*blog*/
+    'uimzr/spec/blog/userStats/UserStatsSpec',
+
     /*dev*/
     'SpecMenu'
 
@@ -29,6 +32,9 @@ require([
     MenuMainSpec,
     MenuUserSpec,
     MenuUserPageSpec,
+
+    /*blog*/
+    UserStatsSpec,
 
     /*dev*/
     SpecMenu
@@ -57,7 +63,10 @@ require([
                 React.createElement(MenuPageSpec, null), 
 
                 React.createElement(MenuMainSpec, null), 
-                React.createElement(MenuUserSpec, null)
+                React.createElement(MenuUserSpec, null), 
+
+                /*blog*/
+                React.createElement(UserStatsSpec, null)
 
             ));
         }

@@ -22,18 +22,13 @@
                     React.createElement("h3", null, "Тех. задание."), 
                     React.createElement("p", null, "Реализовать 3 меню."), 
                     React.createElement("div", {id: "core:menuUser:spec"}, 
-                        React.createElement("p", null, "menu-user-page-owner"), 
+                        React.createElement("p", null, "mzr-menu-user-page-owner"), 
                         React.createElement("img", {src: "/uimzr/spec/menu/menuUserPage/image/menu-user-page-owner.png"}), 
                         React.createElement("p", null, "mzr-menu-user-page-guest"), 
                         React.createElement("img", {src: "/uimzr/spec/menu/menuUserPage/image/mzr-menu-user-page-guest.png"}), 
                         React.createElement("p", null, "mzr-menu-user-page-guest-short"), 
                         React.createElement("img", {src: "/uimzr/spec/menu/menuUserPage/image/menu-user-page-guest-short.png"})
                     )
-
-
-
-
-
 
 
                 )
