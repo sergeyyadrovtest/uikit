@@ -44,7 +44,6 @@
     "promise": "latest",
     "run-sequence": "^0.3.6",
 
-
     "react": "^0.13.1",
     "react-tools": "^0.13.1",
     "requirejs": "^2.1.17",
