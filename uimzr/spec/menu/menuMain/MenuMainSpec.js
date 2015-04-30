@@ -13,7 +13,7 @@
             return (
 
                 React.createElement("div", null, 
-                    React.createElement(Spec, {title: "menu main (css)", anchor: "core:menuMain", group: "core"}, 
+                    React.createElement(Spec, {title: "menu main (css)", anchor: "core:menuMain", group: "menu"}, 
                         React.createElement("p", null, "Меню страницы для не авторизованного пользователя.")
                     ), 
                     React.createElement("nav", {className: "uk-navbar"}, 

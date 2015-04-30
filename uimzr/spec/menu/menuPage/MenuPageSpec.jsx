@@ -13,7 +13,7 @@
 
             return (
 
-                <Spec title="menu page (css, jsx)" anchor="core:menuPage" group="core">
+                <Spec title="menu page (css, jsx)" anchor="core:menuPage" group="menu">
                     <p>Меню страницы.</p>
 
                     <nav className="uk-navbar mzr-navbar--menu-page">

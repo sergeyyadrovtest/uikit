@@ -17,7 +17,7 @@
             return (
 
 
-                <Spec title="menu user (css)" anchor="core:menuUser" group="core">
+                <Spec title="menu user (css)" anchor="core:menuUser" group="menu">
                     <p>Меню пользователей.</p>
 
                     <div style={lStyle}>

@@ -13,7 +13,7 @@
 
             return (
 
-                React.createElement(Spec, {title: "menu page (css, jsx)", anchor: "core:menuPage", group: "core"}, 
+                React.createElement(Spec, {title: "menu page (css, jsx)", anchor: "core:menuPage", group: "menu"}, 
                     React.createElement("p", null, "Меню страницы."), 
 
                     React.createElement("nav", {className: "uk-navbar mzr-navbar--menu-page"}, 

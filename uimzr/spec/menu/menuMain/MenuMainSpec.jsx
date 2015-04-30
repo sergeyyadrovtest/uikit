@@ -13,7 +13,7 @@
             return (
 
                 <div>
-                    <Spec title="menu main (css)" anchor="core:menuMain" group="core">
+                    <Spec title="menu main (css)" anchor="core:menuMain" group="menu">
                         <p>Меню страницы для не авторизованного пользователя.</p>
                     </Spec>
                     <nav className="uk-navbar">

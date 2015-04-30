@@ -17,7 +17,7 @@
             return (
 
 
-                React.createElement(Spec, {title: "menu user (css)", anchor: "core:menuUser", group: "core"}, 
+                React.createElement(Spec, {title: "menu user (css)", anchor: "core:menuUser", group: "menu"}, 
                     React.createElement("p", null, "Меню пользователей."), 
 
                     React.createElement("div", {style: lStyle}, 
