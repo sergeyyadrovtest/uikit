@@ -25,6 +25,13 @@
                         React.createElement("aside", {className: "mzr-user-menu mzr-shadow"}, 
 
                             React.createElement("div", {className: "mzr-user-menu-header"}, 
+                                React.createElement("img", {className: "mzr-icon-noavatar-small mzr-avatar"}), 
+
+                                React.createElement("a", {className: "el-title mzr-link-to-text"}, "Моя страница"), 
+                                React.createElement("div", {className: "el-meta"}, React.createElement("a", {href: "#"}, "Войти"))
+                            ), 
+
+                            React.createElement("div", {className: "mzr-user-menu-header"}, 
                                 React.createElement("img", {className: "mzr-avatar", src: "http://upload-1f47061a063c9bb9706729066dc63a02.commondatastorage.googleapis.com/resize_cache/24511/baa33f78e6ab4760fb3031ec096e6105/main/c10/c102c53774cde6b1ebf9200fa8555680/e06c9f80dbf264087a97f9410f14d2b2.jpg"}), 
                                 React.createElement("a", {className: "el-title mzr-link-to-text"}, "Моя страница"), 
                                 React.createElement("div", {className: "el-meta"}, React.createElement("a", {href: "#"}, "Настройки"), " | ", React.createElement("a", {href: "#"}, "Выйти"))
@@ -35,7 +42,7 @@
 
                                 React.createElement("li", {className: "uk-nav-header"}, "Приложение"), 
 
-                                React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-book283"}), " Интерактивный курс ", React.createElement("div", {className: "uk-badge"}, React.createElement("i", {className: "uk-icon-flag"})))), 
+                                React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-book283"}), " Интерактивный курс")), 
                                 React.createElement("li", {className: "uk-active"}, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-restaurant23"}), " Дневник питания")), 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-standing92"}), " Дневник тренировок ", React.createElement("span", {className: "uk-badge uk-badge-notification"}, "55"))), 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-scale17"}), " Вес и измерения")), 
@@ -120,7 +127,28 @@
 
 
                                 React.createElement("li", {className: "uk-nav-header"}, "Статьи"), 
-                                React.createElement("li", null, React.createElement("a", {href: "http://www.health-diet.ru/base_of_meals/meals_21252/index.php"}, React.createElement("i", {className: "flaticon-healthy8"}), " Варенье и джемы"))
+
+                                React.createElement("li", {className: "uk-nav-header"}, "Статьи"), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Движение")), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Образ жизни")), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Питание"), 
+                                    React.createElement("ul", {className: "uk-nav uk-nav-side"}, 
+                                        React.createElement("li", null, React.createElement("a", null, "Диеты")), 
+                                        React.createElement("li", null, React.createElement("a", null, "Нормы")), 
+                                        React.createElement("li", null, React.createElement("a", null, "Продукты"))
+                                    )
+                                ), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Пищевые вещества"), 
+                                    React.createElement("ul", {className: "uk-nav uk-nav-side"}, 
+                                        React.createElement("li", null, React.createElement("a", null, "Белки, жиры и углеводы")), 
+                                        React.createElement("li", null, React.createElement("a", null, "Витамины и минералы")), 
+                                        React.createElement("li", null, React.createElement("a", null, "Другие нутриенты"))
+                                    )
+                                ), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Подари себе жизнь")), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Привычки")), 
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Физеология"))
+
                             )
                         )
                     )

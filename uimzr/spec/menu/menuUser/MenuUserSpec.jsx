@@ -25,6 +25,13 @@
                         <aside className="mzr-user-menu mzr-shadow">
 
                             <div className="mzr-user-menu-header">
+                                <img className="mzr-icon-noavatar-small mzr-avatar"/>
+
+                                <a className="el-title mzr-link-to-text">Моя страница</a>
+                                <div className="el-meta"><a href="#">Войти</a></div>
+                            </div>
+
+                            <div className="mzr-user-menu-header">
                                 <img className="mzr-avatar" src="http://upload-1f47061a063c9bb9706729066dc63a02.commondatastorage.googleapis.com/resize_cache/24511/baa33f78e6ab4760fb3031ec096e6105/main/c10/c102c53774cde6b1ebf9200fa8555680/e06c9f80dbf264087a97f9410f14d2b2.jpg"/>
                                 <a className="el-title mzr-link-to-text">Моя страница</a>
                                 <div className="el-meta"><a href="#">Настройки</a> | <a href="#">Выйти</a></div>
@@ -35,7 +42,7 @@
 
                                 <li className="uk-nav-header">Приложение</li>
 
-                                <li><a href="#"><i className="flaticon-book283"></i> Интерактивный курс <div className="uk-badge"><i className="uk-icon-flag"></i></div></a></li>
+                                <li><a href="#"><i className="flaticon-book283"></i> Интерактивный курс</a></li>
                                 <li className="uk-active"><a href="#"><i className="flaticon-restaurant23"></i> Дневник питания</a></li>
                                 <li><a href="#"><i className="flaticon-standing92"></i> Дневник тренировок <span className="uk-badge uk-badge-notification">55</span></a></li>
                                 <li><a href="#"><i className="flaticon-scale17"></i> Вес и измерения</a></li>
@@ -120,7 +127,28 @@
 
 
                                 <li className="uk-nav-header">Статьи</li>
-                                <li><a href="http://www.health-diet.ru/base_of_meals/meals_21252/index.php"><i className="flaticon-healthy8"></i> Варенье и джемы</a></li>
+
+                                <li className="uk-nav-header">Статьи</li>
+                                <li><a><i className="flaticon-healthy8"></i> Движение</a></li>
+                                <li><a><i className="flaticon-healthy8"></i> Образ жизни</a></li>
+                                <li><a><i className="flaticon-healthy8"></i> Питание</a>
+                                    <ul className="uk-nav uk-nav-side">
+                                        <li><a>Диеты</a></li>
+                                        <li><a>Нормы</a></li>
+                                        <li><a>Продукты</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i className="flaticon-healthy8"></i> Пищевые вещества</a>
+                                    <ul className="uk-nav uk-nav-side">
+                                        <li><a>Белки, жиры и углеводы</a></li>
+                                        <li><a>Витамины и минералы</a></li>
+                                        <li><a>Другие нутриенты</a></li>
+                                    </ul>
+                                </li>
+                                <li><a><i className="flaticon-healthy8"></i> Подари себе жизнь</a></li>
+                                <li><a><i className="flaticon-healthy8"></i> Привычки</a></li>
+                                <li><a><i className="flaticon-healthy8"></i> Физеология</a></li>
+
                             </ul>
                         </aside>
                     </div>
