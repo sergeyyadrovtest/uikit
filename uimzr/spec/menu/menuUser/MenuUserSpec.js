@@ -10,7 +10,6 @@
     var MenuUserSpec = React.createClass({displayName: "MenuUserSpec",
 
         render: function(){
-
             var lStyle = {
                 width: 200
             };
@@ -38,7 +37,7 @@
                             ), 
 
                             React.createElement("ul", {className: "uk-nav uk-nav-side uk-nav-parent-icon"}, 
-
+                                React.createElement("li", {className: "uk-nav-divider"}), 
 
                                 React.createElement("li", {className: "uk-nav-header"}, "Приложение"), 
 
@@ -47,15 +46,27 @@
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-standing92"}), " Дневник тренировок ", React.createElement("span", {className: "uk-badge uk-badge-notification"}, "55"))), 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-scale17"}), " Вес и измерения")), 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-calendar146"}), " Женский календарь")), 
+                                React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-list71"}), " Планировщик питания")), 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-settings48"}), " Личные данные")), 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-locked59"}), " Доступ")), 
 
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "uk-icon-question-circle"}), " Справка")), 
                                 React.createElement("li", {className: "uk-nav-header"}, "Общение"), 
 
-                                React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-blog4"}), " Мой блог")), 
+                                React.createElement("li", {className: "m--with-action"}, 
+                                    React.createElement("a", {href: "/3/3"}, React.createElement("i", {className: "flaticon-blog4"}), " Мой блог"), 
+                                    React.createElement("a", {href: "/new/", title: "Написать сообщение"}, React.createElement("i", {className: "flaticon-blog1"}))
+                                ), 
+
+
+
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "flaticon-add199"}), " Друзья")), 
-                                React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("span", {className: "flaticon-photos12"}), " Фотографии")), 
+                                React.createElement("li", {className: "m--with-action"}, 
+                                    React.createElement("a", {href: "/3/3"}, React.createElement("i", {className: "flaticon-photos12"}), " Фотографии"), 
+                                    React.createElement("a", {href: "/new/", title: "Загрузить фото"}, React.createElement("i", {className: "flaticon-uparrows"}))
+                                ), 
+
+
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("span", {className: "flaticon-web42"}), " Лента новостей")), 
 
                                 React.createElement("li", {className: "uk-nav-header"}, "Интересное"), 
@@ -147,7 +158,7 @@
                                 ), 
                                 React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Подари себе жизнь")), 
                                 React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Привычки")), 
-                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Физеология"))
+                                React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Физиология"))
 
                             )
                         )

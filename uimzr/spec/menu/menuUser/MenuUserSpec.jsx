@@ -10,7 +10,6 @@
     var MenuUserSpec = React.createClass({
 
         render: function(){
-
             var lStyle = {
                 width: 200
             };
@@ -38,7 +37,7 @@
                             </div>
 
                             <ul className="uk-nav uk-nav-side uk-nav-parent-icon">
-
+                                <li className="uk-nav-divider"></li>
 
                                 <li className="uk-nav-header">Приложение</li>
 
@@ -47,15 +46,27 @@
                                 <li><a href="#"><i className="flaticon-standing92"></i> Дневник тренировок <span className="uk-badge uk-badge-notification">55</span></a></li>
                                 <li><a href="#"><i className="flaticon-scale17"></i> Вес и измерения</a></li>
                                 <li><a href="#"><i className="flaticon-calendar146"></i> Женский календарь</a></li>
+                                <li><a href="#"><i className="flaticon-list71"></i> Планировщик питания</a></li>
                                 <li><a href="#"><i className="flaticon-settings48"></i> Личные данные</a></li>
                                 <li><a href="#"><i className="flaticon-locked59"></i> Доступ</a></li>
 
                                 <li><a href="#"><i className="uk-icon-question-circle"></i> Справка</a></li>
                                 <li className="uk-nav-header">Общение</li>
 
-                                <li><a href="#"><i className="flaticon-blog4"></i> Мой блог</a></li>
+                                <li className="m--with-action">
+                                    <a href="/3/3"><i className="flaticon-blog4"></i> Мой блог</a>
+                                    <a href="/new/" title="Написать сообщение"><i className="flaticon-blog1"></i></a>
+                                </li>
+
+
+
                                 <li><a href="#"><i className="flaticon-add199"></i> Друзья</a></li>
-                                <li><a href="#"><span className="flaticon-photos12"></span> Фотографии</a></li>
+                                <li className="m--with-action">
+                                    <a href="/3/3"><i className="flaticon-photos12"></i> Фотографии</a>
+                                    <a href="/new/" title="Загрузить фото"><i className="flaticon-uparrows"></i></a>
+                                </li>
+
+
                                 <li><a href="#"><span className="flaticon-web42"></span> Лента новостей</a></li>
 
                                 <li className="uk-nav-header">Интересное</li>
@@ -147,7 +158,7 @@
                                 </li>
                                 <li><a><i className="flaticon-healthy8"></i> Подари себе жизнь</a></li>
                                 <li><a><i className="flaticon-healthy8"></i> Привычки</a></li>
-                                <li><a><i className="flaticon-healthy8"></i> Физеология</a></li>
+                                <li><a><i className="flaticon-healthy8"></i> Физиология</a></li>
 
                             </ul>
                         </aside>
