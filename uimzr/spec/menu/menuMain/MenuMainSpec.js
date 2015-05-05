@@ -57,11 +57,11 @@
                             React.createElement("li", null, 
                                 React.createElement("a", {href: "/people/blogs/foodDiary/"}, "Дневники")
                             ), 
-                            React.createElement("li", {className: "mzr-navbar-nav-line"}), 
-                            React.createElement("li", null, 
+                            React.createElement("li", {className: "mzr-navbar-nav-line mzr-navbar-hide-1000"}), 
+                            React.createElement("li", {className: "mzr-navbar-hide-1000"}, 
                                 React.createElement("a", {href: "/people/blogs/recipe/"}, "Рецепты")
                             ), 
-                            React.createElement("li", {className: "mzr-navbar-nav-lin"}), 
+                            React.createElement("li", {className: "mzr-navbar-nav-line mzr-navbar-hide-1200"}), 
                             React.createElement("li", {className: "mzr-navbar-hide-1200"}, 
                                 React.createElement("a", {href: "/table_calorie/"}, "Таблицы калорийности")
                             ), 

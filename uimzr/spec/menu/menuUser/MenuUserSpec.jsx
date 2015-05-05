@@ -53,7 +53,7 @@
                                 <li><a href="#"><i className="uk-icon-question-circle"></i> Справка</a></li>
                                 <li className="uk-nav-header">Общение</li>
 
-                                <li className="m--with-action">
+                                <li className="m--with-action uk-active">
                                     <a href="/3/3"><i className="flaticon-blog4"></i> Мой блог</a>
                                     <a href="/new/" title="Написать сообщение"><i className="flaticon-blog1"></i></a>
                                 </li>
@@ -137,7 +137,7 @@
                                 <li><a href="http://www.health-diet.ru/base_of_meals/meals_21251/index.php"><i className="flaticon-sauce1"></i> Соусы и заправки</a></li>
 
 
-                                <li className="uk-nav-header">Статьи</li>
+
 
                                 <li className="uk-nav-header">Статьи</li>
                                 <li><a><i className="flaticon-healthy8"></i> Движение</a></li>
@@ -159,6 +159,7 @@
                                 <li><a><i className="flaticon-healthy8"></i> Подари себе жизнь</a></li>
                                 <li><a><i className="flaticon-healthy8"></i> Привычки</a></li>
                                 <li><a><i className="flaticon-healthy8"></i> Физиология</a></li>
+
 
                             </ul>
                         </aside>

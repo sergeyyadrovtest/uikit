@@ -49,6 +49,7 @@
                                 <li>Префикс для css классов <code>mzr-</code></li>
                                 <li>Under score нотация наименования классов <code>mzr-super-component</code></li>
                                 <li>Рекомендуется использовать <a href="https://ru.bem.info/" target="_blank">BEM</a> методологию в наименовании классов. <code>mzr-super-block_element--modificator-red</code>
+
                                 </li>
                             </ul>
                         </div>
@@ -95,15 +96,22 @@
 
                         <div className="mzr-block-content">
                             <ul>
-                                <li>Делаем адаптивную верстку.</li>
-                                <li>Если width компонента не указана в ТЗ, значит он растягивается на всю длину.</li>
-                                <li>В Т.З. дается 3 картинки (если иное не указано), т.е. как компонент должен выглядеть на разных экранах.
-                                    <ul>
-                                        <li>до 733px включительно</li>
-                                        <li>480 px</li>
-                                        <li>320 px</li>
-                                    </ul>
+                                <li>Делаем адаптивную верстку.
+                                <p>Тех. задание дается ввиде прототипа сделанного в приложение на Axure, доступного через интернет. При изменении ширина браузера будет меняться расположение элементов. </p>
                                 </li>
+                                <li>Если width компонента не указана в ТЗ, значит он растягивается на всю длину.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="mzr-block">
+                        <div className="mzr-block-header">Font icons</div>
+
+                        <div className="mzr-block-content">
+                            <ul>
+                                <li>В проекте используется FontAwesome, уже встроенный в <a href="http://getuikit.com/docs/icon.html" target="_blank">uikit</a></li>
+                                <li>Также flaticon. Это генерируемый иконочный шрифт сервисом <a href={'http://www.flaticon.com/'}>flaticon.com</a>.</li>
+
                             </ul>
                         </div>
                     </div>

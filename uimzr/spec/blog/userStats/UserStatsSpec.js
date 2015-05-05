@@ -22,8 +22,7 @@
                     React.createElement("div", null, 
                         React.createElement("h3", null, "ТЗ"), 
                         React.createElement("p", null, "Используем ", React.createElement("a", {href: "#core:block"}, ".mzr-block"), " для реализации этого компонента."), 
-                        React.createElement("p", null, ".mzr-user-stats"), 
-                        React.createElement("img", {src: "/uimzr/spec/blog/userStats/image/mzr-user-stats.png"})
+                        React.createElement("a", {href: "http://malno3.axshare.com/#p=blog_user-stats__05-05-2015_", target: "_blank"}, "Скришоты меню")
 
 
                     )

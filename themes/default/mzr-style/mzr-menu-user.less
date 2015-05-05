@@ -33,6 +33,20 @@
     border-bottom: 1px solid @mzr-color-gray-lite;
   }
 
+  .uk-nav > li.uk-active{
+    background: @nav-side-active-background;
+  }
+  .uk-nav > li.uk-active>a:last-child:hover{
+    background: lighten(@nav-side-active-background, 5%);
+  }
+
+  .uk-nav > li{
+    //fix ie - иначе перенос в меню таблиц калорийности не происходил
+    word-wrap:break-word;
+  }
+
+
+
   .m--with-action{
 
     >a:first-child{
@@ -41,9 +55,6 @@
     }
     >a:last-child{
       float: right;
-      >i{
-        font-size: 1.4em;
-      }
     }
 
     &:after{
@@ -59,7 +70,7 @@
     padding: 5px 10px;
   }
   .uk-nav-header {
-    color: #808080;
+    color: @mzr-color-red;
   }
 
   .mzr-user-menu-header{

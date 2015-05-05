@@ -22,8 +22,7 @@
                     <div>
                         <h3>ТЗ</h3>
                         <p>Используем <a href="#core:block">.mzr-block</a> для реализации этого компонента.</p>
-                        <p>.mzr-user-stats</p>
-                        <img src="/uimzr/spec/blog/userStats/image/mzr-user-stats.png"/>
+                        <a href="http://malno3.axshare.com/#p=blog_user-stats__05-05-2015_" target="_blank">Скришоты меню</a>
 
 
                     </div>

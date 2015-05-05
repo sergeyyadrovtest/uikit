@@ -57,11 +57,11 @@
                             <li>
                                 <a href="/people/blogs/foodDiary/">Дневники</a>
                             </li>
-                            <li className="mzr-navbar-nav-line"></li>
-                            <li>
+                            <li className="mzr-navbar-nav-line mzr-navbar-hide-1000"></li>
+                            <li  className= "mzr-navbar-hide-1000">
                                 <a href="/people/blogs/recipe/">Рецепты</a>
                             </li>
-                            <li className="mzr-navbar-nav-lin"></li>
+                            <li className="mzr-navbar-nav-line mzr-navbar-hide-1200"></li>
                             <li className= "mzr-navbar-hide-1200">
                                 <a href="/table_calorie/">Таблицы калорийности</a>
                             </li>

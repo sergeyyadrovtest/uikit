@@ -49,6 +49,7 @@
                                 React.createElement("li", null, "Префикс для css классов ", React.createElement("code", null, "mzr-")), 
                                 React.createElement("li", null, "Under score нотация наименования классов ", React.createElement("code", null, "mzr-super-component")), 
                                 React.createElement("li", null, "Рекомендуется использовать ", React.createElement("a", {href: "https://ru.bem.info/", target: "_blank"}, "BEM"), " методологию в наименовании классов. ", React.createElement("code", null, "mzr-super-block_element--modificator-red")
+
                                 )
                             )
                         )
@@ -95,15 +96,22 @@
 
                         React.createElement("div", {className: "mzr-block-content"}, 
                             React.createElement("ul", null, 
-                                React.createElement("li", null, "Делаем адаптивную верстку."), 
-                                React.createElement("li", null, "Если width компонента не указана в ТЗ, значит он растягивается на всю длину."), 
-                                React.createElement("li", null, "В Т.З. дается 3 картинки (если иное не указано), т.е. как компонент должен выглядеть на разных экранах.", 
-                                    React.createElement("ul", null, 
-                                        React.createElement("li", null, "до 733px включительно"), 
-                                        React.createElement("li", null, "480 px"), 
-                                        React.createElement("li", null, "320 px")
-                                    )
-                                )
+                                React.createElement("li", null, "Делаем адаптивную верстку.", 
+                                React.createElement("p", null, "Тех. задание дается ввиде прототипа сделанного в приложение на Axure, доступного через интернет. При изменении ширина браузера будет меняться расположение элементов. ")
+                                ), 
+                                React.createElement("li", null, "Если width компонента не указана в ТЗ, значит он растягивается на всю длину.")
+                            )
+                        )
+                    ), 
+
+                    React.createElement("div", {className: "mzr-block"}, 
+                        React.createElement("div", {className: "mzr-block-header"}, "Font icons"), 
+
+                        React.createElement("div", {className: "mzr-block-content"}, 
+                            React.createElement("ul", null, 
+                                React.createElement("li", null, "В проекте используется FontAwesome, уже встроенный в ", React.createElement("a", {href: "http://getuikit.com/docs/icon.html", target: "_blank"}, "uikit")), 
+                                React.createElement("li", null, "Также flaticon. Это генерируемый иконочный шрифт сервисом ", React.createElement("a", {href: 'http://www.flaticon.com/'}, "flaticon.com"), ".")
+
                             )
                         )
                     ), 

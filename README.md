@@ -1,3 +1,23 @@
+# UImzr
+
+ - create 
+ - cd uikit
+ - npm install
+ - Создаете branch. Под каждый компонент/тз создаете ветку с соотвествующим названием.
+ - gulp sync.  Открываем: [uimzr](http://localhost:3000/uimzr/index.html), [customizer](https://github.com/uikit/bower-uikit)  The browser window will reload anytime you modify a source file.
+ - Читаем [Style guide](http://localhost:3000/uimzr/index.html#core:style-guide)
+ - gulp watch-react-jsx-to-js - компиляция jsx to js
+ - Реализуете задачу.
+ - pull requirest
+
+
+# Задачи
+
+ - верстка: [Статитиска пользователя](http://localhost:3000/uimzr/index.html#blog:userStats)
+ - верстка: [Меню пользователя страницы](http://localhost:3000/uimzr/index.html#core:menuUserPage)
+ - верстка: [Реализовать mzr-block-image-menu](http://localhost:3000/uimzr/index.html#core:block)
+
+
 # UIkit
 
 UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.

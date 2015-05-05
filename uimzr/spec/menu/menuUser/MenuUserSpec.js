@@ -53,7 +53,7 @@
                                 React.createElement("li", null, React.createElement("a", {href: "#"}, React.createElement("i", {className: "uk-icon-question-circle"}), " Справка")), 
                                 React.createElement("li", {className: "uk-nav-header"}, "Общение"), 
 
-                                React.createElement("li", {className: "m--with-action"}, 
+                                React.createElement("li", {className: "m--with-action uk-active"}, 
                                     React.createElement("a", {href: "/3/3"}, React.createElement("i", {className: "flaticon-blog4"}), " Мой блог"), 
                                     React.createElement("a", {href: "/new/", title: "Написать сообщение"}, React.createElement("i", {className: "flaticon-blog1"}))
                                 ), 
@@ -137,7 +137,7 @@
                                 React.createElement("li", null, React.createElement("a", {href: "http://www.health-diet.ru/base_of_meals/meals_21251/index.php"}, React.createElement("i", {className: "flaticon-sauce1"}), " Соусы и заправки")), 
 
 
-                                React.createElement("li", {className: "uk-nav-header"}, "Статьи"), 
+
 
                                 React.createElement("li", {className: "uk-nav-header"}, "Статьи"), 
                                 React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Движение")), 
@@ -159,6 +159,7 @@
                                 React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Подари себе жизнь")), 
                                 React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Привычки")), 
                                 React.createElement("li", null, React.createElement("a", null, React.createElement("i", {className: "flaticon-healthy8"}), " Физиология"))
+
 
                             )
                         )
