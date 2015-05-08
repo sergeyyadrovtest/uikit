@@ -15,6 +15,9 @@ require([
     /*blog*/
     'uimzr/spec/blog/userStats/UserStatsSpec',
 
+    /*news*/
+    'uimzr/spec/news/newsList/NewsListSpec',
+
     /*dev*/
     'SpecMenu'
 
@@ -35,6 +38,9 @@ require([
 
     /*blog*/
     UserStatsSpec,
+
+    /*news*/
+    NewsListSpec,
 
     /*dev*/
     SpecMenu
@@ -66,7 +72,11 @@ require([
                 React.createElement(MenuUserSpec, null), 
 
                 /*blog*/
-                React.createElement(UserStatsSpec, null)
+                React.createElement(UserStatsSpec, null), 
+
+
+                /*news*/
+                React.createElement(NewsListSpec, null)
 
             ));
         }

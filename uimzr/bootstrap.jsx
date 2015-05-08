@@ -15,6 +15,9 @@ require([
     /*blog*/
     'uimzr/spec/blog/userStats/UserStatsSpec',
 
+    /*news*/
+    'uimzr/spec/news/newsList/NewsListSpec',
+
     /*dev*/
     'SpecMenu'
 
@@ -35,6 +38,9 @@ require([
 
     /*blog*/
     UserStatsSpec,
+
+    /*news*/
+    NewsListSpec,
 
     /*dev*/
     SpecMenu
@@ -67,6 +73,10 @@ require([
 
                 {/*blog*/}
                 <UserStatsSpec/>
+
+
+                {/*news*/}
+                <NewsListSpec/>
 
             </div>);
         }
