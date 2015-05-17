@@ -1,6 +1,8 @@
 # UImzr
 
- - create 
+# Workflow
+
+ - создаете fork 
  - cd uikit
  - npm install
  - Создаете branch. Под каждый компонент/тз создаете ветку с соотвествующим названием.
